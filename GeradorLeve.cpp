@@ -14,10 +14,11 @@
 
 int main(){
     FILE *proclist;
-    int carga = LEVE;
+    int carga = INTENSA;
     float longo = 1.5*TMT, curto = TMT/2, duration=0;
     int CPUNumber;
     float time=0;
+    int i;
 
     switch(carga){
     case LEVE:
@@ -39,6 +40,27 @@ int main(){
                 break;
             }
         }
+        break;
+    case INTENSA:
+        duration=(float)TMT/((float)AMOUNT);
+        printf("duration=%f\n",duration);
+        proclist = fopen("ListaIntensa.txt", "w");
+        for(i=0;i<TOTAL;i++){
+            CPUNumber = rand()%N;
+            fprintf(proclist,"%d ",CPUNumber);
+            fprintf(proclist,"%f ",time);
+            time=time+duration;
+            switch(i%2){
+            case CURTO:
+                fprintf(proclist,"%f\n",curto);
+                break;
+            case LONGO:
+                fprintf(proclist,"%f\n",longo);
+                break;
+            }
+        }
+        break;
+
     }
     fclose(proclist);
     return 0;
