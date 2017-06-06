@@ -1,0 +1,38 @@
+Lendo entrada (null)...
+Entrada lida com sucesso
+Variaveis globais iniciadas
+Escrevendo log...
+Tempo: 0.000000 | Processo 1 criado na CPU 1: 1 0.000000 5.000000
+Tempo: 0.000000 | Processo 1 iniciado na CPU 1: 1 0.000000 5.000000
+Tempo: 1.000000 | Processo 2 criado na CPU 2: 2 1.000000 5.000000
+Tempo: 1.000000 | Processo 2 iniciado na CPU 2: 2 1.000000 5.000000
+Tempo: 2.000000 | Processo 3 criado na CPU 3: 3 2.000000 5.000000
+Tempo: 2.000000 | Processo 3 iniciado na CPU 3: 3 2.000000 5.000000
+Tempo: 3.000000 | Processo 4 criado na CPU 6: 1 3.000000 5.000000
+Tempo: 3.000000 | Processo 4 iniciado na CPU 6: 1 3.000000 5.000000
+Tempo: 4.000000 | Processo 5 criado na CPU 15: 2 4.000000 5.000000
+Tempo: 4.000000 | Processo 5 iniciado na CPU 15: 2 4.000000 5.000000
+Tempo: 5.000000 | Processo 6 criado na CPU 14: 3 5.000000 5.000000
+Tempo: 5.000000 | Processo 6 iniciado na CPU 14: 3 5.000000 5.000000
+Tempo: 5.020000 | Processo 1 encerrado na CPU 1: 1 0.000000 5.000000
+Tempo: 6.020000 | Processo 2 encerrado na CPU 2: 2 1.000000 5.000000
+Tempo: 7.020000 | Processo 3 encerrado na CPU 3: 3 2.000000 5.000000
+Tempo: 8.020000 | Processo 4 encerrado na CPU 6: 1 3.000000 5.000000
+Tempo: 9.020000 | Processo 5 encerrado na CPU 15: 2 4.000000 5.000000
+Tempo: 10.020000 | Processo 6 encerrado na CPU 14: 3 5.000000 5.000000
+Tempo: 10.020000 | Mensagens processador 0: transmitidas 0 recebidas 1
+Tempo: 10.020000 | Mensagens processador 1: transmitidas 5 recebidas 0
+Tempo: 10.020000 | Mensagens processador 2: transmitidas 1 recebidas 0
+Tempo: 10.020000 | Mensagens processador 3: transmitidas 2 recebidas 0
+Tempo: 10.020000 | Mensagens processador 4: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 5: transmitidas 0 recebidas 1
+Tempo: 10.020000 | Mensagens processador 6: transmitidas 0 recebidas 2
+Tempo: 10.020000 | Mensagens processador 7: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 8: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 9: transmitidas 0 recebidas 1
+Tempo: 10.020000 | Mensagens processador 10: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 11: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 12: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 13: transmitidas 0 recebidas 0
+Tempo: 10.020000 | Mensagens processador 14: transmitidas 0 recebidas 2
+Tempo: 10.020000 | Mensagens processador 15: transmitidas 0 recebidas 1
